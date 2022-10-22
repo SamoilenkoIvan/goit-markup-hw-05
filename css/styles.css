@@ -622,6 +622,7 @@ a {
 
 .projects-list {
   display: flex;
+  justify-content: space-between;
   flex-wrap: wrap;
   margin-top: -30px;
   margin-left: -30px;
@@ -631,7 +632,7 @@ a {
   display: block;
   margin-top: 30px;
   margin-left: 30px;
-  flex-basis: calc(100% / 3 - 60px);
+  flex-basis: calc(100% / 3 - 30px);
   border-bottom: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
@@ -750,9 +751,6 @@ a {
   transform: scale(1) translate(-50%, -50%);
 }
 
-.close-icon {
- 
-}
 
 .button {
   padding: 0;
